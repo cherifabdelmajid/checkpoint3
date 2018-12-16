@@ -1,32 +1,88 @@
-#abc{
-    color:red;   /* ceci est un code qui change la couleur d'un ID */
+#a:hover{
+    border:10px solid black
 }
-#abc:hover{
-    color:blue;
+#b:hover{
+    border:10px solid black
 }
-#hello{
-    background-color : tomato;
-    border : 1px solid black;
+#c:hover{
+    border:10px solid black
 }
-#hi{
+#d:hover{
+    border:10px solid black
+}
+#e:hover{
+    border:10px solid black
+}
+#f:hover{
+    border:10px solid black
+}
+#a, #b, #e, #f{
+    color:black;
+    background-color:goldenrod; 
     margin-top : 5px;
-    margin-bottom : 10px;
-    margin-right: 15px;
-    margin-left: 20px;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left:50px;
+    width:30%;
 }
-#hi{
-    padding-top : 5px;
-    padding-bottom : 10px;
-    padding-right: 15px;
-    padding-left: 20px;
-}
-p{ display : block;
-    width : 33%;
 
+#c,#d{
+    color:black;
+    background-color: gray;
+    margin-top : 5px;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left:50px;
+    width:30%;
 }
-#hide{ display : none; }
-p{ background-color : tomato;/*yes this color exists*/}
-#p1{ padding-left : 15px; }
-#image1{ padding-left : 15px; }
-#languages{ padding-left : 15px; }
-#plastic{ padding-left: 15px; }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: blue;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+img{
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    
+}
+#fes{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 300px;
+    position: absolute;
+    color: #fff;
+}
+#a{
+    display: inline-block;
+}
+#b{
+    display: inline-block;
+}
+#c{
+    display: inline-block;
+}
+#d{
+    display: inline-block;
+}
+#e{
+    display: inline-block;
+}
+#f{
+    display: inline-block;
+}
+#b,#a{
+    font-size:18.5px
+}
