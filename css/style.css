@@ -1,0 +1,88 @@
+#a:hover{
+    border:10px solid black
+}
+#b:hover{
+    border:10px solid black
+}
+#c:hover{
+    border:10px solid black
+}
+#d:hover{
+    border:10px solid black
+}
+#e:hover{
+    border:10px solid black
+}
+#f:hover{
+    border:10px solid black
+}
+#a, #b, #e, #f{
+    color:black;
+    background-color:goldenrod; 
+    margin-top : 5px;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left:50px;
+    width:30%;
+}
+
+#c,#d{
+    color:black;
+    background-color: gray;
+    margin-top : 5px;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left:50px;
+    width:30%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: blue;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+img{
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    
+}
+#fes{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 300px;
+    position: absolute;
+    color: #fff;
+}
+#a{
+    display: inline-block;
+}
+#b{
+    display: inline-block;
+}
+#c{
+    display: inline-block;
+}
+#d{
+    display: inline-block;
+}
+#e{
+    display: inline-block;
+}
+#f{
+    display: inline-block;
+}
+#b,#a{
+    font-size:18.5px
+}
